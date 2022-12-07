@@ -12,7 +12,7 @@ conda activate sonar-ip
 pip install -r requirements.txt
 ```
 
-### Repository Structure
+## Repository Structure
     .
     ├── data                   
     |   ├──demo-synthethic-shapes
