@@ -1,7 +1,7 @@
 # SonarInterestPointDetection
 
 ## Installation
----
+
 ### Requirements
 - Python 3 >= 3.5
 - PyTorch >= 1.1
@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## Repository Structure
----
+
     .
     ├── data                   
     |   ├──demo-synthethic-shapes
@@ -44,14 +44,14 @@ pip install -r requirements.txt
     └── requirements.txt
 
 ## How to run the file
----
+
 ```.py``` files are available, however we advise you to run the demo notebook (```.\demo\sample_trainer_notebook.py```) in your Google Colab instance.
 
 
 
 
 ## About the data
----
+
 Data folder structure should follow above structure in order to run the training instance without running into any error. Data should be split into test, train, and validation folders each comprising ```img``` and ```pts``` folders. ```img``` should contain original ```.png``` files of your sonar image data, whereas ```pts``` should contain ```.npy``` files of your annotated interest points from the original image. We have used [MakeSense.ai](https://www.makesense.ai/) in order to manual annotate the interest points of the image files. Once you export ```.csv``` of your annotations, you can refer to ```.\data\annotation_to_npy.py``` file for the ```.npy``` conversion. 
 ### Example of ```img\*.png``` file
 <img src="https://github.com/yoonichoi/SonarInterestPointDetection/blob/main/data/sonar-data/test/img/1010.png?raw=true" width="300">
